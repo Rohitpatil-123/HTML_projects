@@ -1,0 +1,36 @@
+<html>
+<script>
+m=0
+function price()
+{
+f.p.value=f.c.value 
+m=f.p.value
+s.src=f.c.value+".jpg"
+}
+</script>
+<style>
+#q{
+width:100px;
+height:100px;
+border:2px solid black;
+}
+</style>
+<body>
+<form name="f">
+<h1 align="center">POPULAR CAR BAZZAR</h1>
+<hr><br><br>
+<center>
+<select name="c" onchange="price()" onchange="jj()">
+<option value="1">Innova
+<option value="2">Mercedes
+<option value="3">Ertiga
+<option value="6">Nano
+<option value="7">Tavera
+<br> price:<input type="text" name="p">
+<br><br><br>
+<div id="q">
+<img src="2.jpg" id="s" height=100% width=100%>
+</div>
+</center>
+</body>
+</html>
